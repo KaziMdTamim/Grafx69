@@ -1,0 +1,11 @@
+.header-compo{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.header-compo:hover{
+background-color: cadetblue;
+border-radius: 10px;
+color: white;
+padding: 10px;
+}
