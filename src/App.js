@@ -1,10 +1,10 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home/Home';
 import Header from './Components/Navbar/Header';
 import Features from './Components/Features/Features';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
