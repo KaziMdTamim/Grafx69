@@ -14,7 +14,7 @@ const Home = () => {
                   We Are Grafx69 For You
               </span>
               <br />
-              <Link to="/about" className="btn-link" style={{marginTop:"15px", backgroundColor:'khaki', color:'green', paddingtop:"20px", borderRadius:"15px"}}>Our Services</Link>
+              <Link to="/services" className="btn-link" style={{marginTop:"15px", backgroundColor:'khaki', color:'green', paddingtop:"20px", borderRadius:"15px"}}>Our Services</Link>
           </h1>
           </div>
           <div className='img-div'>

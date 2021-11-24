@@ -6,10 +6,10 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
+        
           <Navbar bg="success" variant="dark">
     <Container>
-    <Navbar.Brand href="/home"><img src={logo} width="180px" alt=""></img></Navbar.Brand>
+    <Navbar.Brand href="/home"><img src={logo} width="120px" alt=""></img></Navbar.Brand>
     <Nav className="me-auto navbar-responsive">
       <Link className="header-compo" to="/home">Home</Link>
       <Link className="header-compo" to="/features">Features</Link>
@@ -17,7 +17,7 @@ const Header = () => {
     </Nav>
     </Container>
   </Navbar>
-        </div>
+        
     );
 };
 

@@ -1,6 +1,7 @@
 .header-compo{
     text-decoration: none;
     color: white;
+    /* padding: 10px; */
     margin-right: 20px;
 }
 .header-compo:hover{

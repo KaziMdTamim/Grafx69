@@ -1,0 +1,17 @@
+.partners, .partners-2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.partners{
+    padding-bottom: 10%;
+}
+
+
+@media only screen and (min-width:360px) and (max-width:992px) 
+{
+    .partners, .partners-2{
+       flex-direction: column;
+    }
+}

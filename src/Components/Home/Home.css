@@ -1,9 +1,14 @@
 .body-element{
-    display: grid;
-    grid-template-columns: repeat(2, 6fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 6fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
 }
 .btn-link{
-    text-decoration: none;
+    text-decoration: none !important;
     border: 2px solid white;
     /* padding: 5px; */
     margin-top: 15px;
@@ -14,11 +19,10 @@
 }
 
 
-
 @media only screen and (min-width:360px) and (max-width:992px) 
 {
     .body-element{
-       grid-template-columns: repeat(1, 1fr);
+       flex-direction: column;
     }
     .inner, p{
         margin: 0;
@@ -34,3 +38,7 @@
         font-family:Garamond, serif ;
     }
 }
+
+/* .adv{
+    color: midnightblue;
+} */
